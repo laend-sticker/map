@@ -1,0 +1,30 @@
+/*
+General Rules
+*/
+:root {
+    --accentColor: #f9dd16;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #333333;
+    --heading1Size: 3rem;
+    --heading2Size: 2.5rem;
+    --heading3Size: 2rem;
+    --subheadingSize: 1.25rem;
+    --paragraphSize: 1rem;
+    --smallTextSize: 0.75rem;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    inset: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: var(--black);
+    color: var(--white);
+    height: 100%;
+}
